@@ -1,0 +1,153 @@
+/* cssReset ve themecss dosyasýný headerUiMenu.css dosyamýza import ettik */
+/* miskin bulut üzerden iyi kullanmalar dileðiyle :) */
+
+@import "cssReset.css";
+@import "themeCss.css";
+
+/* green tab */
+
+ul.green {
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(rgb(87,202,75)), to(rgb(59,181,49)));
+	background: -webkit-linear-gradient(top, rgb(87,202,75), rgb(59,181,49));
+	background: -moz-linear-gradient(top, rgb(87,202,75), rgb(59,181,49));
+	background: -ms-linear-gradient(top, rgb(87,202,75), rgb(59,181,49));
+	background: -o-linear-gradient(top, rgb(87,202,75), rgb(59,181,49));
+	background: -linear-gradient(top, rgb(87,202,75), rgb(59,181,49));
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr ='#57ca4b', endColorstr='#3bb531' GradientType=0);
+}
+
+ul.green li.ui-state-active  a { color: rgb(87,202,75) !important; }
+
+ul.green li.ui-state-hover { background: rgb(43,156,31) !important; }
+
+ul.green li.ui-state-active { background: rgb(255,255,255) !important; }
+
+
+/* dark blue tab */
+
+ul.darkBlue {
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(rgb(75,162,202)), to(rgb(49,133,181)));
+	background: -webkit-linear-gradient(top, rgb(75,162,202), rgb(49,133,181));
+	background: -moz-linear-gradient(top, rgb(75,162,202), rgb(49,133,181));
+	background: -ms-linear-gradient(top, rgb(75,162,202), rgb(49,133,181));
+	background: -o-linear-gradient(top, rgb(75,162,202), rgb(49,133,181));
+	background: -linear-gradient(top, rgb(75,162,202), rgb(49,133,181));
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr ='#4ba2ca', endColorstr='#3185b5' GradientType=0);
+}
+
+ul.darkBlue li.ui-state-active  a { color: rgb(75,162,202) !important; }
+
+ul.darkBlue li.ui-state-hover { background: rgb(39,121,167) !important; }
+
+ul.darkBlue li.ui-state-active { background: rgb(255,255,255) !important; }
+
+/* purple tab */
+
+ul.purple {
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(rgb(152,100,210)), to(rgb(123,71,192)));
+	background: -webkit-linear-gradient(top, rgb(152,100,210), rgb(123,71,192));
+	background: -moz-linear-gradient(top, rgb(152,100,210), rgb(123,71,192));
+	background: -ms-linear-gradient(top, rgb(152,100,210), rgb(123,71,192));
+	background: -o-linear-gradient(top, rgb(152,100,210), rgb(123,71,192));
+	background: -linear-gradient(top, rgb(152,100,210), rgb(123,71,192));
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr ='#9864d2', endColorstr='#7b47c0' GradientType=0);
+}
+
+ul.purple li.ui-state-active  a { color: rgb(152,100,210) !important; }
+
+ul.purple li.ui-state-hover { background: rgb(111,56,173) !important; }
+
+ul.purple li.ui-state-active { background: rgb(255,255,255) !important; }
+
+/* pink tab */
+
+ul.pink {
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(rgb(210,100,162)), to(rgb(192,70,133)));
+	background: -webkit-linear-gradient(top, rgb(210,100,162), rgb(192,70,133));
+	background: -moz-linear-gradient(top, rgb(210,100,162), rgb(192,70,133));
+	background: -ms-linear-gradient(top, rgb(210,100,162), rgb(192,70,133));
+	background: -o-linear-gradient(top, rgb(210,100,162), rgb(192,70,133));
+	background: -linear-gradient(top, rgb(210,100,162), rgb(192,70,133));
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr ='#d264a2', endColorstr='#c04685' GradientType=0);
+}
+
+ul.pink li.ui-state-active  a { color: rgb(210,100,162) !important; }
+
+ul.pink li.ui-state-hover { background: rgb(173,45,117) !important; }
+
+ul.pink li.ui-state-active { background: rgb(255,255,255) !important; }
+
+/* black tab */
+
+ul.black {
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(rgb(67,67,67)), to(rgb(43,43,43)));
+	background: -webkit-linear-gradient(top, rgb(67,67,67), rgb(43,43,43));
+	background: -moz-linear-gradient(top, rgb(67,67,67), rgb(43,43,43));
+	background: -ms-linear-gradient(top, rgb(67,67,67), rgb(43,43,43));
+	background: -o-linear-gradient(top, rgb(67,67,67), rgb(43,43,43));
+	background: -linear-gradient(top, rgb(67,67,67), rgb(43,43,43));
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr ='#4343', endColorstr='#2b2b2b' GradientType=0);
+}
+
+ul.black li.ui-state-active  a { color: rgb(67,67,67) !important; }
+
+ul.black li.ui-state-hover { background: rgb(31,31,31) !important; }
+
+ul.black li.ui-state-active { background: rgb(255,255,255) !important; }
+
+/* black tab */
+
+ul.white {
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(rgb(241,241,241)), to(rgb(230,230,230)));
+	background: -webkit-linear-gradient(top, rgb(241,241,241), rgb(230,230,230));
+	background: -moz-linear-gradient(top, rgb(241,241,241), rgb(230,230,230));
+	background: -ms-linear-gradient(top, rgb(241,241,241), rgb(230,230,230));
+	background: -o-linear-gradient(top, rgb(241,241,241), rgb(230,230,230));
+	background: -linear-gradient(top, rgb(241,241,241), rgb(230,230,230));
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr ='#ffffff', endColorstr='#e6e6e6' GradientType=0);
+}
+
+ul.white li.ui-state-active  a { color: rgb(172, 172, 172) !important; }
+
+ul.white li.ui-state-hover,ul.white li.ui-state-hover a  { background: rgb(255,255,255) !important; color: rgb(172, 172, 172) !important; }
+
+ul.white li.ui-state-active { background: rgb(255,255,255) !important; }
+ul.white a span.logo { color: rgb(128, 127, 127) !important; text-shadow: -1px -1px rgba(255,255,255,0.5) !important; }
+ul.white li a.ss-icon { color: rgb(172, 172, 172) !important; text-shadow: 0px -1px rgba(0, 0, 0, 0.47); }
+
+/* light green tab */
+
+ul.lightGreen {
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(rgb(163,219,66)), to(rgb(135,204,42)));
+	background: -webkit-linear-gradient(top, rgb(163,219,66), rgb(135,204,42));
+	background: -moz-linear-gradient(top, rgb(163,219,66), rgb(135,204,42));
+	background: -ms-linear-gradient(top, rgb(163,219,66), rgb(135,204,42));
+	background: -o-linear-gradient(top, rgb(163,219,66), rgb(135,204,42));
+	background: -linear-gradient(top, rgb(163,219,66), rgb(135,204,42));
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr ='#a3db42', endColorstr='#87cc2a' GradientType=0);
+}
+
+ul.lightGreen li.ui-state-active  a { color: rgb(163,219,66) !important; }
+
+ul.lightGreen li.ui-state-hover { background: rgb(123,175,32) !important; }
+
+ul.lightGreen li.ui-state-active { background: rgb(255,255,255) !important; }
+
+/* blue tab */
+
+ul.blue {
+	background: -webkit-gradient(linear, 0% 0%,0% 100%, from(rgb(66,210,219)), to(rgb(42,192,204)));
+	background: -webkit-linear-gradient(top, rgb(66,210,219), rgb(42,192,204));
+	background: -moz-linear-gradient(top, rgb(66,210,219), rgb(42,192,204));
+	background: -ms-linear-gradient(top, rgb(66,210,219), rgb(42,192,204));
+	background: -o-linear-gradient(top, rgb(66,210,219), rgb(42,192,204));
+	background: -linear-gradient(top, rgb(66,210,219), rgb(42,192,204));
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr ='#42d2db', endColorstr='#2ac0cc' GradientType=0);
+}
+
+ul.blue li.ui-state-active  a { color: rgb(66,210,219) !important; }
+
+ul.blue li.ui-state-hover { background: rgb(30,156,164) !important; }
+
+ul.blue li.ui-state-active { background: rgb(255,255,255) !important; }
+
